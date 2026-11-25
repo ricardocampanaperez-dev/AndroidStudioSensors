@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/studyModeFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.androidstudio.LoginFragment"
+        android:label="Login" />
+
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.androidstudio.RegisterFragment"
+        android:label="Registro" />
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.androidstudio.HomeFragment"
+        android:label="Inicio" />
+
+    <fragment
+        android:id="@+id/tasksFragment"
+        android:name="com.example.androidstudio.TasksFragment"
+        android:label="Tareas" />
+
+    <fragment
+        android:id="@+id/studyModeFragment"
+        android:name="com.example.androidstudio.StudyModeFragment"
+        android:label="Modo Estudio"
+        tools:layout="@layout/fragment_study_mode" />
+
+    <fragment
+        android:id="@+id/newsFragment"
+        android:name="com.example.androidstudio.NewsFragment"
+        android:label="Consejos" />
+
+    <fragment
+        android:id="@+id/contactFragment"
+        android:name="com.example.androidstudio.ContactFragment"
+        android:label="Contacto"
+        tools:layout="@layout/fragment_contact" />
+
+</navigation>
